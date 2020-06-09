@@ -4,5 +4,17 @@
   "description": "stduy absolute path with typescript, node",
   "main": "index.js",
   "author": "joe1220@daum.net",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.12",
+    "cross-env": "^7.0.2"
+  },
+  "scripts": {
+    "dev": "nodemon -r ts-node src/index.ts"
+  }
 }
