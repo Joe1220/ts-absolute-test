@@ -1,0 +1,8 @@
+{
+  "name": "ts-absolute-test",
+  "version": "1.0.0",
+  "description": "stduy absolute path with typescript, node",
+  "main": "index.js",
+  "author": "joe1220@daum.net",
+  "license": "MIT"
+}
